@@ -1,0 +1,10 @@
+My initial goal was to be able to take in 2nd order constraints (figure 1c) and
+an invariant template for I, then make the necessary substitutions for the
+invariant (I[...]), and finally run it with the z3 solver. However, I quickly
+realized this was not easily doable in Python (writing a parser would probably
+take up most of my time), so I settled with manually doing the substitutions and
+put it in z3 format (which was suprisingly easy to use). The output (as
+mentioned in class) is a little underwhelming.
+
+This paper gave me a lot of headache and in the end didn't seem to be very
+useful aside from toy problems like this. It's interesting nonetheless.
